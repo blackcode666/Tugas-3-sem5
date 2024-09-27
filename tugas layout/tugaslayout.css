@@ -1,0 +1,100 @@
+/* tugaslayout.css */
+
+/* General body styling */
+body {
+    background-color: #1b1b1b;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    
+}
+
+/* Page Header Styling */
+.page-header h1 {
+    color: red;
+    font-size: 36px;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    box-shadow: 0 0 20px 5px black;
+}
+
+.page-header h1 small {
+    color: red;
+    font-style: italic;
+    
+}
+
+/* Navbar Styling */
+.nav {
+    background-color: #2c2c2c;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 20px 5px black;
+}
+
+.nav .nav-item .nav-link {
+    color: #ffffff;
+    margin-right: 15px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.nav .nav-item .nav-link:hover, .nav .nav-link.active {
+    color: red;
+}
+
+.dropdown-menu {
+    background-color: #333333;
+    border: none;
+}
+
+.dropdown-item {
+    color: #ffffff;
+}
+
+.dropdown-item:hover {
+    background-color: red;
+}
+
+/* Image Styling */
+img {
+    max-width: 100%;
+    border-radius: 80px;
+    margin-bottom: 2px;
+    box-shadow: 0 0 20px 5px black;
+
+    
+}
+
+
+
+/* Description List Styling */
+dt {
+    color: red;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+dd {
+    margin-left: 20px;
+    color: #ffffff;
+}
+
+/* Address Styling */
+address {
+    font-style: normal;
+    background-color: #2c2c2c;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 20px 5px black;
+}
+
+/* Utility classes for spacing */
+.container-fluid {
+    padding: 20px;
+}
+
+.row {
+    margin-bottom: 30px;
+}
